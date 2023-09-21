@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <title>Administrador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body onload="Obtenertodos()">
+    <h1>Registro Call </h1>
+    <h4>Administrador de Productos</h4>
+   <div class="styled-table">
+    <table>
+
+        <thead>
+
+        <tr>
+
+            <th>ID</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Color</th>
+            <th>Almacenamiento</th>
+            <th>Procesador</th>
+
+        </tr>
+        <tbody id="tbcontent"></tbody>
+
+        </thead>
+
+
+    </table>
+</div>
+
+
+
+<div>
+    <h4>Consultar Articulo</h4>
+    <input type="number" placeholder="Ingresa el ID" id="articulo">
+    <button onclick="buscarID()">Buscar</button>
+</div>
+<br>
+
+<div>
+
+<div>
+   
+    <label for="consultarMarca">Marca: </label>
+   <textarea id="consultarMarca" cols="30" rows="1"></textarea>
+
+</div>
+<br>
+<div>
+   
+    <label for="consultarModelo">Modelo: </label>
+   <textarea id="consultarModelo" cols="30" rows="1"></textarea>
+   
+</div>
+<br>
+<div>
+   
+    <label for="consultarColor">Color: </label>
+   <textarea id="consultarColor" cols="30" rows="1"></textarea>
+   
+</div>
+<br>
+<div>
+   
+    <label for="consultarAlmacenamiento">Almacenamiento: </label>
+   <textarea id="consultarAlmacenamiento" cols="30" rows="1"></textarea>
+   
+</div>
+<br>
+<div>
+   
+    <label for="consultarProcesador">Procesador: </label>
+   <textarea id="consultarProcesador" cols="30" rows="1"></textarea>
+   
+</div>
+
+
+
+</div>
+<br><br>
+<div>
+    <button onclick="modificar()">Modificar</button>
+    <button onclick="eliminar()">Eliminar</button>
+</div>
+
+<div>
+
+    <h4>Crear Articulo</h4>
+    <input type="text" placeholder="Marca" id="Marca">
+    <input type="text" placeholder="Modelo" id="Modelo">
+    <br>
+    <input type="text" placeholder="color" id="color">
+    <input type="text" placeholder="Almacenamiento" id="Almacenamiento">
+    <br>
+    <input type="text" placeholder="Procesador" id="Procesador">
+    <br><br>
+    <button onclick="Postear()">Agregar Nuevo</button>
+
+</div>
+
+
+
+</body>
+<script src="scripts.js"></script>
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h4{
+    text-decoration: underline;
+}
+input {
+    padding: 10px; /* Espaciado interior del input */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+
+button {
+    padding:  14px; /* Espaciado interior del botón (arriba y abajo, izquierda y derecha) */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón por encima */
+}
+
+/* Estilo para el botón al pasar el cursor por encima */
+button:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+
+label {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    margin-bottom: 5px; /* Margen inferior */
+    display: block; /* Hacer que el label sea un bloque para separarlo */
+}
+
+textarea {
+    padding: 12px; /* Espaciado interior del textarea */
+    border: 1px solid #ccc; /* Borde del textarea */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    width: 150px; /* Ancho completo */
+    height: 5px; /* Altura del textarea */
+}
+
+textarea:hover {
+    border-color: #007bff; /* Cambiar el color del borde al pasar el cursor */
+}
+
+/* Estilo para la tabla */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Estilo para las celdas de encabezado */
+.styled-table th {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px; /* Espaciado interior */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para las celdas de datos */
+.styled-table td {
+    border: 1px solid #ddd; /* Borde de las celdas de datos */
+    padding: 8px; /* Espaciado interior */
+}
+
+/* Estilo para las filas alternas (para mejorar la legibilidad) */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo de filas pares */
+}
+
+/* Estilo para las filas al pasar el cursor por encima */
+.styled-table tbody tr:hover {
+    background-color: #cceeff; /* Color de fondo al pasar el cursor */
+}
